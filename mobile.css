@@ -1,0 +1,72 @@
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    /* Add mobile-specific styles here */
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .hamburger-menu-bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px auto;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        background-color: #f8f9fa;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-link {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    /* Hide the checkbox input only on mobile */
+    #toggle-nav {
+        display: none;
+    }
+
+    .toggle-nav:checked + .hamburger-menu .hamburger-menu-bar:nth-child(1),
+    .toggle-nav:checked + .hamburger-menu .hamburger-menu-bar:nth-child(3) {
+        transform: rotate(45deg);
+    }
+
+    .toggle-nav:checked + .hamburger-menu .hamburger-menu-bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .toggle-nav:checked ~ .nav-links {
+        display: block;
+    }
+}
+
+/* Non-mobile styles */
+@media screen and (min-width: 768px) {
+    /* Add non-mobile specific styles here */
+    #toggle-nav {
+        display: block; /* Ensure checkbox is visible */
+    }
+}

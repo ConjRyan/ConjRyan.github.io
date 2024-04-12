@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        padding: 15px;
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+    .main-content {
+        padding: 30px;
+    }
+}

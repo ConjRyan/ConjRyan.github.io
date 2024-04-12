@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Makes sure that the title and the picture have enough space between them*/
+.header-content h1 {
+    margin-right: 20px; 
+}
+/*Logo styling information*/
+.logo {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.contact-info {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+nav {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main-content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.page-links a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-links img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+ /*Here starts the styling information of the footer*/
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+/*Styling information for the little pictures in the footer*/
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+/*Gives default look for each option in the form of possible types of input*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+/*styling information for the submit button*/
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+/*styling information for if the user hovers over the submit button*/
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+}
+/* Both this one and the one above are the same but for different forms*/
+.application_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+}
+
+/* This is to make sure that the forms both of them are in the middle of the pages and have a border*/
+.form-container {
+    width: 100%; 
+    max-width: 800px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    text-align: center; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-container form {
+    margin-top: 20px;
+}
+
+/* Starting of the services styles*/
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service {
+    margin: 20px;
+    text-align: center;
+}
+
+.service img {
+    width: 200px; /* Adjust the width of the service pictures*/
+    height: 150px; /* Adjust the height of the service pictures*/
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    margin: 0;
+}
+
+/*These styles are for the nested pages of the services*/
+
+.service-description-format {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-description {
+    width: 45%;
+    padding: 20px;
+}
+
+.service-description h2 {
+    margin-top: 0;
+}
+
+.service-image {
+    width: 45%;
+    text-align: center;
+}
+
+.service-image img {
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+}
+
+/* These are for the customer reviews styles*/
+
+.customer-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-review {
+    margin-bottom: 20px;
+}
+
+.customer-review img {
+    max-width: 100%; 
+    height: auto; 
+}
+

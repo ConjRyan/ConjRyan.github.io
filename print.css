@@ -1,0 +1,17 @@
+@media print {
+    body {
+        color: black;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+}
