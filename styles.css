@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #007bff;
+    background-color: #32CD32;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -22,7 +22,7 @@ header {
 }
 /*Logo styling information*/
 .logo {
-    width: 100px; 
+    width: 125px; 
     height: auto; 
 }
 
@@ -44,7 +44,7 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: #007bff;
+    color: #32CD32;
     font-weight: bold;
     padding: 10px 20px;
     margin: 0 10px;
@@ -52,7 +52,7 @@ nav {
 }
 
 .nav-link:hover {
-    background-color: #007bff;
+    background-color: #32CD32;
     color: #fff;
 }
 
@@ -156,7 +156,7 @@ textarea {
 }
 /*styling information for the submit button*/
 button[type="submit"] {
-    background-color: #007bff;
+    background-color: #32CD32;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -166,7 +166,7 @@ button[type="submit"] {
 }
 /*styling information for if the user hovers over the submit button*/
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #32CD32;
 }
 
 .contact_form {
